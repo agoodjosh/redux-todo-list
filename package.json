@@ -1,18 +1,18 @@
 {
-  "name": "react_starter",
+  "name": "redux-todo-list",
   "version": "1.0.0",
-  "description": "Starting setup for react redux project",
+  "description": "To Do list using react and redux",
   "main": "index.js",
   "scripts": {
     "start": "node dev_server.js",
     "bundle": "node_modules/.bin/webpack --config webpack.deploy.config.js --progress --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Scott Bowler",
+  "author": "Jauxshua Chang",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Learning-Fuze/react_starter.git"
+    "url": "https://github.com/jaUXsh/redux-todo-list.git"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
