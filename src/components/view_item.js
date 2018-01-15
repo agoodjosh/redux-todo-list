@@ -36,8 +36,6 @@ class ViewItem extends Component {
     }
 
     render() {
-        console.log('View Items Props:', this.props);
-
         if (!this.props.single) {
             return null;
         }
