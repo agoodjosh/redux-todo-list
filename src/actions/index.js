@@ -31,6 +31,15 @@ export function getSingleItem(id) {
     }
 }
 
+export function deleteSingleItem(id) {
+    const request = axios.delete(BASE_URL + '/todos/' + id + API_KEY);
+
+    return {
+        type: types.DELETE_SINGLE_ITEM,
+        payload: request
+    }
+}
+
 /*
 
 Take information given in ViewItem and update component with:
