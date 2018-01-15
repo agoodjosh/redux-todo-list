@@ -11,7 +11,6 @@ export default function (state = DEFAULT_STATE, action) {
         case types.GET_ITEMS:
             return { ...state, list: action.payload.data.todos }
         case types.GET_SINGLE_ITEM:
-            console.log("GET SINLGE ITEM: ", action);
             return { ...state, single: action.payload.data.todo };
         default:
             return state;

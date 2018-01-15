@@ -34,7 +34,7 @@ class AddForm extends Component {
                     <Link className="btn btn-outline-primary" to='/'>Back</Link>
                 </div>
                 <h1 className="text-center">Add To-Do Item</h1>
-                <form onSubmit={props => { console.log(props); this.props.handleSubmit(this.handleAddItem.bind(this)) }} >
+                <form onSubmit={this.props.handleSubmit(this.handleAddItem.bind(this))} >
                     <Field name="title" label="Title:" component={this.renderInput} />
                     <Field name="details" label="Details:" component={this.renderInput} />
                     <button className="btn btn-outline-success">Add</button>
