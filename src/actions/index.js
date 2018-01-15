@@ -33,6 +33,11 @@ export function getSingleItem(id) {
 
 /*
 
+Take information given in ViewItem and update component with:
+- format time properly
+- Button toggle complete
+- Delete Button then REDIRECT back to Home (just like Add Button)
+
 axios.delete(http://api.reactprototypes.com/todos/[id#]?key=[my api key]);
 
 axios.put(http://api.reactprototypes.com/todos/[id#]?key=[my api key]);
